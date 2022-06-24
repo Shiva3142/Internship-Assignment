@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300;600&display=swap");
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	outline: none;
+	text-decoration: none;
+	color: black;
+    font-family: "Poppins", sans-serif;
+	scroll-behavior: smooth;
+}
+
+a,
+svg,
+button,
+label,
+img {
+    cursor: pointer;
+}
+svg{
+	max-width: 20px;
+	margin: 0px 5px;
+}
+
+h1{
+	text-align: center;
+}
+
+
+
+
+body{
+	background: url('https://images.pexels.com/photos/3608056/pexels-photo-3608056.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') fixed no-repeat;
+	background-size:cover;
+}
+
+

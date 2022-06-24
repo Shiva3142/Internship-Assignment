@@ -1,0 +1,41 @@
+@import '../main.scss';
+
+header{
+    @include content-between;
+    padding: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    div{
+        min-width: 350px;
+        p{
+            color: rgba(0, 0, 0, 0.695);
+            font-size: 90%;
+        }
+    }
+    nav{
+        margin: 20px 0;
+        @include content-center;
+        width: 300px;
+        a{
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            color: black;
+            font-weight: bold;
+            box-shadow: 2px 2px 0px gray;
+        }
+    }
+}
+
+
+@media screen and (max-width:$mobile_limit) {
+    header{
+        font-size: 0.5em;
+        div{
+            min-width: 200px;
+        }
+        nav{
+            width: 100px;
+        }
+    }
+}

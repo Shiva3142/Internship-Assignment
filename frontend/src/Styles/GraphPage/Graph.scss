@@ -1,0 +1,18 @@
+@import '../main.scss';
+
+.inputContainer{
+    @include content-center;
+    padding: 20px;
+    select{
+        // width: 300px;
+        font-size: 20px;
+        padding: 10px 40px;
+        @media screen and (max-width:$mobile_limit){
+            font-size: 0.8em;
+        }
+    }
+}
+.graph{
+    margin: 30px 5px;
+    
+}

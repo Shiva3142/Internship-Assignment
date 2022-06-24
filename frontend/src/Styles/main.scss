@@ -1,0 +1,15 @@
+$mobile_limit: 700px;
+$minimum_mobile_limit: 350px;
+$medium_size_limit: 1200px;
+
+
+@mixin content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin content-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
